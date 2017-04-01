@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="391dp"
+            android:layout_height="273dp"
+            android:id="@+id/imageView"
+            android:src="@drawable/cegdev"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Placement Detail:-"
+            android:id="@+id/textView21"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CEG is established by Govt. of Rajasthan in 2006. In guidance of honourable technical education minister Sh. Kalicharan Saraf and CEG’s Director Dr. Vishnu Goyal, CEG is taking initiative to provide job opportunities for the unemployed candidates. In view of this, CEG is started a CEG’s job placement portal for such candidates. Experienced interested candidates may also upload their experience and educational qualification details for better opportunities and positions. At CEG portal students may registered and upload their complete education details including latest updated resume. CEG would invite industries to arrange campus recruitment program at CEG campus. Terms , conditions and procedure of uploading student profile are given on this website portal so prior to upload educational details please read procedure carefully."
+            android:id="@+id/textView20"
+            android:textSize="15dp" />
+
+
+        <TableLayout
+            android:id="@+id/tabla_cuerpo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TableRow
+                android:id="@+id/tableRow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="S_No."
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Company Name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:id="@+id/textView14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Student Place"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Year"
+                    android:id="@+id/textView19"
+                    android:textSize="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="5dp"
+                    android:text="1."
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="5dp"
+                    android:text="Vodafone"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="5dp"
+                    android:text="10"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015"
+                    android:id="@+id/textView15"
+                    android:textSize="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="2."
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Apple"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="20"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015"
+                    android:id="@+id/textView16"
+                    android:textSize="15dp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="3."
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="Google"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="30"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015"
+                    android:id="@+id/textView17"
+                    android:textSize="15dp" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="4."
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:padding="5dp"
+                    android:text="Micromax"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="5dp"
+                    android:text="40"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="15dp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2015"
+                    android:id="@+id/textView18"
+                    android:textSize="15dp" />
+
+            </TableRow>
+
+        </TableLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="For Enroll.In Placements--"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+        <Button
+            android:layout_width="168dp"
+            android:layout_height="match_parent"
+            android:text="Register Here"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal"
+            android:background="#bdccfe"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration Procedure in Hindi"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:background="#bdccfe"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Registration Procedure in English"
+            android:id="@+id/button3"
+            android:layout_gravity="center_horizontal"
+            android:background="#bdccfe"
+            android:layout_marginTop="8dp" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.ceg">
+<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/newceg"
+        android:label="Center For Electronic Governance "
+        android:supportsRtl="true"
+        android:background="#6CC417"
+        android:theme="@style/AppTheme">
+
+
+
+        <activity android:name="com.example.hp.ceg.Splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.example.hp.ceg.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.hp.ceg.Partners"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.hp.ceg.Regular_courses"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.hp.ceg.Activities"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.hp.ceg.Credit"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.hp.ceg.More"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.example.hp.ceg.Placement"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.example.hp.ceg.MyWebView"
+            android:screenOrientation="portrait"/>
+<activity android:name="com.example.hp.ceg.Registration"
+    android:screenOrientation="portrait"/>
+
+
+
+
+    </application>
+
+</manifest>

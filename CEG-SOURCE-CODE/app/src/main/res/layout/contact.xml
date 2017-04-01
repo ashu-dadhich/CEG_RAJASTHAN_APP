@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/white">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:textSize="35sp"
+        android:clickable="false"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <ListView
+        android:paddingTop="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+        android:id="@+id/list"
+        android:drawSelectorOnTop="false"
+        android:padding="12dp"></ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address--"
+        android:id="@+id/textView30"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="380dp"
+        android:layout_height="100dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="96dp"
+            android:id="@+id/textView31"
+            android:layout_marginTop="20dp"
+            android:textColor="#000000"
+            android:textStyle="normal"
+            android:textSize="15dp"
+            android:text="" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="110dp"
+            android:textColor="#000000"
+            android:text="R.C.Khetan Polytechnic College Campus,Jhalana Dungari,Near RTO.Office,Jaipur,Rajasthan,India,Email-Id--ddcegjpr@gmail.com"
+            android:id="@+id/textView32"
+            android:layout_marginLeft="110dp"
+            android:textSize="15dp"
+            android:layout_weight="0.99" />
+    </LinearLayout>
+
+</LinearLayout>

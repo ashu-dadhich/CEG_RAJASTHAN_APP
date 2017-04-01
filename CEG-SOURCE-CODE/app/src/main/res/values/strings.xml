@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">CEG</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="vision_statement_sanskrit">राजस्थान सरकार का उपक्रम</string>
+    <string name="m1">1. Centre for Electronic Governance is an automonous body of Government of Rajasthan under the Department of Technical Education. Foundation stone of CEG was laid down on 8th December 2006.\n</string>
+    <string name="m2">2. Rajasthan is the second state that is running this programme after the highly acclaimed and successful program "Jawahar Knowledge centre" in Andhra pradesh.\n</string>
+    <string name="m3">3. CEG get recognition in IT Training programs like CCNA Trainings, ASP.NET Training, ASP.NET MVC using Razor , Entity Framework , WCF , PHP, Auto CAD, Red Hat Certification trainings, C, C++, Linux Training program, Embedded Training programs etc.\n</string>
+    <string name="m4">4. We also Conduct Summer Trainings programs for MCA, M.Sc., B.Tech, M.Tech and for Diploma students. \n</string>
+    <string name="m5">5. The CEG has been established with a slone aim to provide a conducive environment for creating industry employable IT professionals by the way of arranging seminars lectures, vocational trainings and industry revelant software training.\n</string>
+    <string name="m6">6. CEG is also study Centre of IGNOU for MCA, BCA, CIT, PGDIS and ACISE programs. CEG started software development and Live Project training to give exposure of real time applications to students.\n</string>
+   <string name="m8">1. All Training programs are approved by technical education of Rajasthan.
+   </string>
+    <string name="m9">2. Regional academy of CISCO in North India.
+    </string>
+    <string name="m10">	3. Highest number of students trained by CEG.</string>
+    <string name="m11">4. Well Equipped labs of more then 170 computers with fibre 20MBPS connectivity.</string>
+    <string name="m12">5. Education partner of Microsoft, Red Hat, Auto desk and Cisco etc.</string>
+    <string name="m13">	6. Discount on certification exam fee i.e , Cisco, and RedHat as per service provider norms.</string>
+    <string name="m14">7. CEG is Microsoft Academy.</string>
+    <string name="m15">	8. Trainings provided by experienced and certified faculty.</string>
+    <string name="m16">	9. Our Training Programs covers advance technology, features and topics.</string>
+    <string name="m17">	10. Demo Classes facility is also available.</string>
+    <string name="m18">11. Class timing is usually convenient for students. Morning and evening batches also available.</string>
+    <string name="m19">12. Trainings provided on latest configured equipments like switches, Routers, Computers and software.</string>
+    <string name="m20">	13. Limited Seats and batches </string>
+    <string name="m21">14. Our Trainings are not more expensive. We are getting very nominal fee as compared to other institutes.</string>
+    <string name="m22">15. Learn the latest and trending skills required in the industry </string>
+    <string name="m23">16. Master intermediate level skills to develop wide range and categories of rich and intuitive apps </string>
+    <string name="m24">17. Benefit from the comprehensive curriculum targeting multiple platforms so that you are ready for native app development</string>
+    <string name="m7">At the same time provides a readymade platform interaction between the industry and the trained workforce.\n</string>
+</resources>

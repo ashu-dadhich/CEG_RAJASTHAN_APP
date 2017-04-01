@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:id="@+id/imageView2"
+            android:background="@drawable/director"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="20dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="300dp"></LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dr.Vishnu Goyal"
+        android:id="@+id/textView22"
+        android:layout_marginLeft="85dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginTop="-350dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="0dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(Director,Center For E-Governance)"
+            android:id="@+id/textView23"
+            android:layout_marginLeft="40dp"
+            android:textStyle="bold"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="It is a privilege for me to write this message for newly developed Centre for E-
+
+Governance android mobile app developed by our students. I am feeling very
+
+proud for launching of CEG mobile app. This app is very useful and I hope that our
+
+students may know full advantages &amp; features CEG by using this app. This mobile
+
+app is one step regarding Digital India Program of our Prime Minister Sh.
+
+Narendra Modi.
+
+Introducing an all new Mobile App to Provide Greater Access to the CEG Community
+
+The app provides multiple outlets for connecting with CEG media and staying up-to- date with the
+
+newest started courses &amp; placements information."
+            android:id="@+id/textView24"
+            android:textSize="12dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+
+    </LinearLayout>
+
+</LinearLayout>
